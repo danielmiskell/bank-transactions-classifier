@@ -12,7 +12,7 @@ recurring = get_recurring_transactions(transactions)
 
 The entity_name is the common description of the regularly occurring transactions, income again refers to whether the transaction is debit or credit, period_days denotes the expected inter- val in days between consecutive transactions for that entity, and typical_amount_cents denotes the typical amount in cents. The example_data.csv is provided as a sample for you to develop your understanding of the problem and test out your solution, however it is expected that the solution will generalize to unseen data (i.e. same format data for a new user).
 
-# Data
+## Data
 
 The data file example_data.csv contains realistic but fictional rows of bank transaction data for a single individual. The data is described by 5 columns with the following definitions:
 
